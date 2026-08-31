@@ -2,6 +2,14 @@
 
 ## 2.45.3
 
+### Feats
+
+- `n-qr-code` adds `status` prop with `active`, `expired`, `loading` and `scanned` states, and adds `refresh` event.
+
+### i18n
+
+- Add QrCode locale.
+
 ### Fixes
 
 - Fix `n-pagination` throwing when jumping from a high page back to page 1.

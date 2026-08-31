@@ -2,6 +2,14 @@
 
 ## 2.45.3
 
+### Feats
+
+- `n-qr-code` 新增 `status` 属性，支持 `active`、`expired`、`loading`、`scanned` 四种状态，新增 `refresh` 事件
+
+### i18n
+
+- 新增 QrCode locale
+
 ### Fixes
 
 - 修复 `n-pagination` 页数较多时从末页跳回首页报错的问题
